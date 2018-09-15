@@ -23,7 +23,6 @@ function refreshRes (stats, res) {
 
 module.exports = function isFresh (stats, req, res) {
     refreshRes(stats, res)
-
     const lastModified = req.headers['if-modified-since']
     const etag = req.headers['if-none-match']
 
