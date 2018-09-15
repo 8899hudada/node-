@@ -1,0 +1,29 @@
+{
+  "name": "node-anydoor",
+  "version": "1.0.0",
+  "description": "node anywhere",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8899hudada/node-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8899hudada/node-/issues"
+  },
+  "homepage": "https://github.com/8899hudada/node-#readme",
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "handlebars": "^4.0.11"
+  }
+}
