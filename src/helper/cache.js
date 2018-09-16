@@ -2,7 +2,7 @@ const { cache } = require('../config/defaultConfig')
 
 function refreshRes (stats, res) {
     const {maxAge, expires, cacheControl, lastModified, etag} = cache
-
+    // 通过缓存类型来 返回相应的数据格式
     if (expires) {
         res.setHeader('Expires', (new Date(Date.now() + maxAge * 1000)).toUTCString())
     }
